@@ -1,20 +1,22 @@
 # simple-survey-app
 
+App created using redux, includes Django which host the app and an API
+
 ## Setup
 
-### Install node modules
+### Install Node Modules
 
 ```
 # npm install
 ```
 
-### Install python requirements
+### Install Python Requirements
 
 ```
 # pip install -r requirements.txt
 ```
 
-### Setup Django database
+### Setup Django Database
 
 ```
 # cd project
@@ -22,9 +24,9 @@
 # python manage.py migrate
 ```
 
-## Run django server
+## Run Django Server
 
-In the same directory from _Setup Django database_,
+In the same directory from _Setup Django Database_,
 
 ```
 # python manage.py runserver

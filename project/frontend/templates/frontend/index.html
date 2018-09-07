@@ -1,0 +1,29 @@
+{% extends 'frontend/base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+    <section class="hero is-fullheight">
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="{% url 'index' %}">Logo</a>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <a class="button is-primary" href="{% url 'survey' %}">Take Survey</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                Nothing Here...
+                </h1>
+            </div>
+        </div>
+    </section>
+{% endblock body%}
